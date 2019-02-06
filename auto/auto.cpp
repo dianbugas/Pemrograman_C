@@ -14,7 +14,7 @@ int main()
     string b ="test";
     double c = 15.432;
     float d = 16.5f;
-    int e = max(c,a);
+    intgit e = max(c,a);
 	cout << a << " \ttipe: " << typeid(a).name() << endl;
 	cout << b << " \ttipe: " << typeid(b).name() << endl;
 	cout << c << " \ttipe: " << typeid(c).name() << endl;
