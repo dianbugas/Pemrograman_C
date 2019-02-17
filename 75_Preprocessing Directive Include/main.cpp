@@ -12,7 +12,7 @@ int main(){
 	cout << "PI : " << PI << endl;
 	cout << "KUADRAT: " << KUADRAT(5) << endl;
 	cout << "MAX: " << MAX(10,2) << endl;
+	cout << "MIN: " << MIN(20,1) <<endl;
 	cout << "data string: " << data << endl;
-	cin.get();
 	return 0;
 }
