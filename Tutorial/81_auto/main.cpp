@@ -5,7 +5,8 @@
 using namespace std;
 
 template<typename T, typename U>
-auto max(T a, U b){
+//auto di ganti
+int max(T a, U b){
 	return (a > b) ? T(a) : U(b);
 }
 
@@ -15,7 +16,8 @@ int main(){
 	string b = "test";
 	double c = 15.432;
 	float d = 16.5f;
-	auto e = max(c,a);
+	//auto di ganti
+	int e = max(d,c);
 	cout << a << " \ttipe: " << typeid(a).name() << endl;
 	cout << b << " \ttipe: " << typeid(b).name() << endl;
 	cout << c << " \ttipe: " << typeid(c).name() << endl;
